@@ -1,10 +1,9 @@
 <?php
-
-$alunos = array(
-    array("NOME" => "IGOR", "IDADE" => "24", "NOTA" => "7"),
-    array("NOME" => "JOSE", "IDADE" => "19", "NOTA" => "5"),
-    array("NOME" => "ANTONIO", "IDADE" => "34", "NOTA" => "8")
-);
+$alunos = [
+    $aluno1 = ["NOME" => "IGOR", "IDADE" => "24", "NOTA" => "7"],
+    $aluno2 = ["NOME" => "JOSE", "IDADE" => "19", "NOTA" => "5"],
+    $aluno3 = ["NOME" => "ANTONIO", "IDADE" => "34", "NOTA" => "8"],
+];
 
 foreach($alunos as $aluno) {
     if($aluno["NOTA"] > 5) {
