@@ -1,7 +1,12 @@
 <?php
 
-$array1 = ["bola", "carro", "moto"];
+$array = ["bola", "carro", "moto"];
 
 for($i = 0; $i < 3; $i++) {
-    echo "$array1[$i]\n";
+    echo "Meu $i item $array[$i].\n";
 }
+
+
+
+
+?>

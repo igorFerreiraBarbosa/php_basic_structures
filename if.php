@@ -6,3 +6,4 @@ if($nota < 7) {
 } else {
     echo "Aluno aprovado!";
 }
+?>
