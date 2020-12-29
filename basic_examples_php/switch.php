@@ -13,4 +13,3 @@ switch($nota) {
         echo "Você está reprovado";
         break;        
 }
-?>
