@@ -40,14 +40,3 @@ $alunosMQ7 = array_filter($alunos, function($aluno) {
 });
 
 print_r($alunosMQ7);
-
-// Exemplo básico de trabalho com array de arrays com array_key_exists, mas nesse exemplo irei usar o $aluno1
-// do array associativo $alunos
-
-if(array_key_exists("ALUNO", $aluno1)) {
-    echo "\nA chave NOME existe!";
-} else {
-    echo "\nA chave informada não existe!";
-}
-
-
